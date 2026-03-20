@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('/assets/CooperHewitt-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 632px;
+    padding: 0 16px;
+    margin: 2em auto;
+    position: relative;
+}
+
+header { margin: 1em 0 2em; column-span: all; }
+
+header img {
+  display: inline-block;
+  margin: 0;
+  height: auto;
+  width: 300px;
+  padding: 0;
+}
+
+ul.photo-list {
+    list-style-type: none;
+    List-style-position: inside;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+ul.photo-list li {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    text-align: center;
+    color: transparent;
+    overflow: hidden;
+    position: relative;
+    background: black;
+}
+
+ul.photo-list img {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul.photo-list a {
+    text-decoration: none;
+    color: transparent;
+}
+
+ul.photo-list .caption {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 90%;
+    padding: .25em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 100;
+    line-height: 1.0;
+}
+
+ul.photo-list a:hover .caption {
+    text-decoration: underline;
+    color: #eee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'CooperHewitt', sans-serif;
+    vertical-align: baseline;
+    color: #DA2F20;
+}

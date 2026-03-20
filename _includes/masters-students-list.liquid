@@ -1,0 +1,5 @@
+<ul class="photo-list">
+{% for person in masters_students %}
+  <li>{% if person.site %}<a href="{{ person.site }}">{% endif %}{% if person.pic %}<img src="/assets/{{ person.pic }}" alt="{{ person.name }}" />{% endif %}<span class="caption">{{ person.name }}</span>{% if person.site %}</a>{% endif %}</li>
+{% endfor %}
+</ul>

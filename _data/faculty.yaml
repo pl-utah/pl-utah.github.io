@@ -1,5 +1,13 @@
-- name: Alice
+- name: Eric Eide
 
-- name: Bob
+- name: Matthew Flatt
 
-- name: Carol
+- name: Ganesh Gopalakrishnan
+
+- name: Ben Greenman
+
+- name: Pavel Panchekha
+  pic: pavpanchekha.jpg
+  site: https://pavpanchekha.com/
+
+- name: John Regehr
