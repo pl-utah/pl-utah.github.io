@@ -2,6 +2,6 @@
 
 ## People
 
-{% for person in names.people %}
-- {{ person.name }} — {{ person.role }}
+{% for person in faculty %}
+- {{ person.name }}
 {% endfor %}
