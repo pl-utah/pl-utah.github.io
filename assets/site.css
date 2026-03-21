@@ -46,7 +46,7 @@ header img {
   display: inline-block;
   margin: 0;
   height: auto;
-  width: min(155px, 100%);
+  width: min(170px, 100%);
   padding: 0;
 }
 
@@ -62,7 +62,7 @@ header .site-title {
 }
 
 header .site-title span {
-    color: #DA2F20;
+    color: #BE0000;
 }
 
 ul.photo-list {
@@ -89,6 +89,9 @@ ul.photo-list li {
 ul.photo-list img {
     display: block;
     width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: top center;
     margin: 0 auto;
     position: relative;
 }
@@ -101,7 +104,7 @@ ul.photo-list a {
 ul.photo-list .caption {
     background-color: rgba(0, 0, 0, .5);
     color: white;
-    font-size: 90%;
+    font-size: 80%;
     padding: .25em;
     left: 0;
     right: 0;
@@ -120,5 +123,25 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'CooperHewittBook', sans-serif;
     font-weight: normal;
     vertical-align: baseline;
-    color: #DA2F20;
+    color: #BE0000;
+}
+
+ul.long-list span {
+    float: right;
+    color: #000;
+}
+
+ul.long-list {
+    list-style: none inside; padding: 0;
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+}
+
+a {
+    color: #204a87;
+}
+
+a:hover {
+    color: #3465a4;
 }

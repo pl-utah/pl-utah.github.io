@@ -15,3 +15,7 @@ breakthroughs in _pragmatic programming language research_.
 {% include "masters-students-list.liquid" %}
 
 {% include "undergrads-list.liquid" %}
+
+{% include "alumni-list.liquid" %}
+
+{% include "msc-bsc-alumni-list.liquid" %}
