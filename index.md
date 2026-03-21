@@ -5,7 +5,7 @@ title: PLUtah
 
 The Programming Languages group at the [University of
 Utah](https://www.utah.edu/) has a decades-long history of breakthroughs in
-_pragmatic programming language research_.
+_pragmatic programming language research_. Our faculty and students use PL theory to solve problems in a wide variety of real-world systems, from gradual type systems, to the LLVM compiler infrastructure, to floating-point routines, and even web browsers.
 
 {% include "news-list.liquid", limit: 3 %}
 {% if news and news.size > 3 %}
