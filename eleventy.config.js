@@ -10,7 +10,10 @@ function lastName(value) {
   return "";
 }
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
+  const { RenderPlugin } = await import("@11ty/eleventy");
+  eleventyConfig.addPlugin(RenderPlugin);
+
   eleventyConfig.addDataExtension("yaml,yml", contents => {
     const data = yaml.load(contents);
     if (Array.isArray(data)) {
