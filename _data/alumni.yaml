@@ -1,1 +1,43 @@
-[]
+- name: Ian Briggs
+  where: AWS
+  url: https://ianbriggs.dev/
+
+- name: Manasij Mukherjee
+  where: Nvidia
+  url: https://www.linkedin.com/in/manasij7479/
+
+- name: Zhengyang Liu
+  where: Tenstorrent
+  url: https://users.cs.utah.edu/~liuz/
+
+- name: Vsevolod Livinskii
+  url: https://livinskii.com/
+  where: Nvidia
+
+- name: Jubi Taneja
+  url: https://www.jubitaneja.com/
+  where: Gimlet Labs
+
+- name: Xuejun Yang
+  url: https://www.linkedin.com/in/xuejun-yang-63b5572b/
+  where: Microsoft
+
+- name: Yang Chen
+  where: Anthropic
+  url: https://www.linkedin.com/in/yang-chen-00503970/
+
+- name: Jianjun Duan
+  where: ByteDance
+  url: https://www.linkedin.com/in/jianjun-duan-861b7a58/
+
+- name: Anton Burtsev
+  where: UUtah
+  url: https://mars-research.github.io/aburtsev/
+
+- name: Lu Zhao
+  where: Secregen
+  url: https://www.linkedin.com/in/lu-zhao-8441a939/
+
+- name: Nathan Cooprider
+  where: STR
+  url: https://www.linkedin.com/in/ncooprider/
