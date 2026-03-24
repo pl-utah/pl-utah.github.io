@@ -9,7 +9,7 @@ _pragmatic programming language research_.
 
 {% include "news-list.liquid", limit: 3 %}
 {% if news and news.size > 3 %}
-[More…](/news/)
+[More…](news/)
 {% endif %}
 
 {% include "faculty-list.liquid" %}
