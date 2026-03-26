@@ -1,9 +1,16 @@
-{% if msc_bsc_alumni and msc_bsc_alumni.size > 0 %}
+{%- if msc_bsc_alumni and msc_bsc_alumni.size > 0 -%}
 <h2>M.Sc. and B.Sc. Alumni</h2>
-<ul class="long-list">
-{% for person in msc_bsc_alumni %}
-  {% assign href = person.url | default: person.site %}
-  <li>{% if href %}<a href="{{ href }}">{% endif %}{{ person.name }}{% if person.where %} <span>{{ person.where }}</span>{% endif %}{% if href %}</a>{% endif %}</li>
-{% endfor %}
+<ul class="alumni-list">
+{%- assign sorted_alumni = msc_bsc_alumni | sort: "name" -%}
+{%- for person in sorted_alumni -%}
+{%- assign href = person.url | default: person.site -%}
+<li>
+{%- if href -%}
+<a class="row" href="{{ href }}"><span><span class="name">{{ person.name }}</span></span>{%- if person.where -%}<span class="where">{{ person.where }}</span>{%- endif -%}</a>
+{%- else -%}
+<span class="row"><span><span class="name">{{ person.name }}</span></span>{%- if person.where -%}<span class="where">{{ person.where }}</span>{%- endif -%}</span>
+{%- endif -%}
+</li>
+{%- endfor -%}
 </ul>
-{% endif %}
+{%- endif -%}
