@@ -257,3 +257,10 @@ a:hover {
     color: #3465a4;
     text-decoration: underline;
 }
+
+footer {
+    margin-top: 2rem;
+    color: #777;
+    font-size: 0.7rem;
+    text-align: center;
+}
