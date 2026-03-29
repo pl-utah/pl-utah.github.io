@@ -15,7 +15,7 @@ _pragmatic programming language research_. We are founding contributors to
 
 Members of our group take interest in a wide variety of systems, from GPU
 programs, to gradual type systems, to the LLVM project, to floating-point
-routines, to web browsers. We share one common goal: Enhance these systems with
+optimization, to web browsers. We share one common goal: Enhance these systems with
 PL techniques!
 
 {% include "news-list.liquid", limit: 3 %}
