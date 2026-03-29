@@ -5,10 +5,18 @@ title: PLUtah
 
 The Programming Languages group at the [University of
 Utah](https://www.utah.edu/) has a decades-long history of breakthroughs in
-_pragmatic programming language research_. Members of our group take interest in
-a wide variety of systems, from GPU programs, to gradual type systems, to the
-LLVM project, to floating-point routines, to web browsers. We share one common
-goal: Enhance these systems with PL techniques!
+_pragmatic programming language research_. We are founding contributors to
+[Racket](https://racket-lang.org), [Herbie](https://herbie.uwplse.org/),
+[egg](https://egraphs-good.github.io/),
+[Alive2](https://github.com/AliveToolkit/alive2),
+[CSmith](https://github.com/csmith-project/csmith),
+[C-Reduce](https://github.com/csmith-project/creduce), and
+[XSmith](https://www.flux.utah.edu/project/xsmith).
+
+Members of our group take interest in a wide variety of systems, from GPU
+programs, to gradual type systems, to the LLVM project, to floating-point
+routines, to web browsers. We share one common goal: Enhance these systems with
+PL techniques!
 
 {% include "news-list.liquid", limit: 3 %}
 {% if news and news.size > 3 %}
