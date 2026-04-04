@@ -21,6 +21,7 @@ module.exports = async function (eleventyConfig) {
   eleventyConfig.addPlugin(RenderPlugin);
 
   // Keep repository docs from being emitted as site pages.
+  eleventyConfig.ignores.add(".context/**");
   eleventyConfig.ignores.add("README.md");
   eleventyConfig.ignores.add("TODO.md");
 
