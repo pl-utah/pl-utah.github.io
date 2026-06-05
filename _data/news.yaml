@@ -1,4 +1,17 @@
 - info: |
+    [Ashton](https://lambdaland.org) will be at PLDI'26 talking about "Bushwacking towards
+    event-driven Chorex" at the Choreographic Programming Workshop.
+  date: June 5, 2026
+- info: |
+    [Dr. An Qi Zhang](https://useraz.github.io/) will be at PLDI'26 presenting his accepted paper "A
+    Formally Verified Foundation for Compositional Heterogeneous Coherence".
+  date: June 5, 2026
+- info: |
+    [Prof. Mary Hall](https://users.cs.utah.edu/~mhall/) will be at PLDI'26 giving a keynote titled
+    "Tiles, Bricks, and Layouts: How Aggregate Data Abstractions Aid in Optimizing Data Movement" at
+    the ARRAYS workshop.
+  date: June 5, 2026
+- info: |
     Congratulations to [Dr. Marisa Kirisame](https://marisa.moe) for defending his thesis! He will
     be joining Amazon Web Services as a Research Scientist.
   date: May 6, 2026
