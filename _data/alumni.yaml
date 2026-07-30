@@ -81,11 +81,14 @@
   date: 2008
 
 # ganesh
-
 - name: Tripti Agarwal
   where: AWS
   date: 2026
   url: https://www.linkedin.com/in/tripti-agarwal-b395a914a/
+
+- name: Anh Tran
+  where: Intel
+  date: 2026
 
 - name: Tanmay Tirpankar
   where: Nvidia
