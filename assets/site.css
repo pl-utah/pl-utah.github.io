@@ -74,6 +74,55 @@ header .site-title span {
     color: #BE0000;
 }
 
+.reading-group-schedule {
+    width: 100%;
+    margin: 0 0 1.5rem;
+    border-collapse: collapse;
+}
+
+.reading-group-schedule th,
+.reading-group-schedule td {
+    padding: 0.45rem 0.6rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+}
+
+.reading-group-schedule th {
+    color: #BE0000;
+    font-family: 'CooperHewittBook', sans-serif;
+    font-weight: normal;
+}
+
+.reading-group-schedule td:first-child {
+    font-family: "Source Code Pro", monospace;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .reading-group-schedule {
+        table-layout: fixed;
+        font-size: 0.8rem;
+    }
+
+    .reading-group-schedule th,
+    .reading-group-schedule td {
+        padding: 0.35rem 0.2rem;
+        overflow-wrap: anywhere;
+    }
+
+    .reading-group-schedule th:first-child,
+    .reading-group-schedule td:first-child {
+        width: 6.5rem;
+    }
+
+    .reading-group-schedule th:last-child,
+    .reading-group-schedule td:last-child {
+        width: 5rem;
+    }
+}
+
 ul.photo-list {
     list-style-type: none;
     list-style-position: inside;

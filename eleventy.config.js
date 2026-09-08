@@ -16,6 +16,18 @@ function alumniYear(person) {
   return Number.isFinite(year) ? year : 0;
 }
 
+function semesterSortValue(semester) {
+  const match = /^(Spring|Summer|Fall)\s+(\d{4})$/i.exec(semester ?? "");
+  if (!match) return 0;
+  const season = { spring: 1, summer: 2, fall: 3 }[match[1].toLowerCase()];
+  return Number(match[2]) * 10 + season;
+}
+
+function formatScheduleDate(value) {
+  const [year, month, day] = value.split("-");
+  return `${month}/${day}/${year.slice(-2)}`;
+}
+
 module.exports = async function (eleventyConfig) {
   const { RenderPlugin } = await import("@11ty/eleventy");
   eleventyConfig.addPlugin(RenderPlugin);
@@ -46,6 +58,15 @@ module.exports = async function (eleventyConfig) {
       return lastName(a).localeCompare(lastName(b));
     });
   });
+
+  eleventyConfig.addFilter("sortSemestersDesc", schedules => {
+    if (!schedules || typeof schedules !== "object") return schedules;
+    return Object.values(schedules).sort(
+      (a, b) => semesterSortValue(b.semester) - semesterSortValue(a.semester),
+    );
+  });
+
+  eleventyConfig.addFilter("formatScheduleDate", formatScheduleDate);
 
   eleventyConfig.addDataExtension("yaml,yml", contents => {
     const data = yaml.load(contents);

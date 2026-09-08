@@ -1,0 +1,6 @@
+semester: Fall 2026
+meetings:
+  - date: "2026-09-09"
+    paper: "Equivalence Checking of ML GPU Kernels"
+    link: "https://arxiv.org/abs/2511.12638"
+    presenter: "Kshitij Dubey"
