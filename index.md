@@ -8,7 +8,7 @@ decades-long history of breakthroughs in _pragmatic programming language researc
 
 Notable projects developed/maintained by our group included
 [CSmith](https://github.com/csmith-project/csmith),
-[CReduce](https://github.com/csmith-project/csmith), [Racket](https://racket-lang.org/),
+[CReduce](https://github.com/csmith-project/creduce), [Racket](https://racket-lang.org/),
 [Alive2](https://github.com/AliveToolkit/alive2), [FPTaylor](https://github.com/soarlab/FPTaylor),
 and [Herbie](https://herbie.uwplse.org/).
 
