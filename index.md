@@ -3,15 +3,17 @@ layout: layouts/index.html
 title: PLUtah
 ---
 
-The Programming Languages group at the [University of
-Utah](https://www.utah.edu/) has a decades-long history of breakthroughs in
-_pragmatic programming language research_.
+The Programming Languages group at the [University of Utah](https://www.utah.edu/) has a
+decades-long history of breakthroughs in _pragmatic programming language research_.
 
 Notable projects developed/maintained by our group included
 [CSmith](https://github.com/csmith-project/csmith),
 [CReduce](https://github.com/csmith-project/csmith), [Racket](https://racket-lang.org/),
 [Alive2](https://github.com/AliveToolkit/alive2), [FPTaylor](https://github.com/soarlab/FPTaylor),
 and [Herbie](https://herbie.uwplse.org/).
+
+We meet weekly during the semester to read and discuss PL papers.
+You can see the current semester's schedule [here](reading-group/).
 
 {% include "news-list.liquid", limit: 3 %}
 {% if news and news.size > 3 %}
