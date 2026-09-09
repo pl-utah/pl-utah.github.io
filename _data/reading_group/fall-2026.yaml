@@ -4,3 +4,6 @@ meetings:
     paper: "Equivalence Checking of ML GPU Kernels"
     link: "https://arxiv.org/abs/2511.12638"
     presenter: "Kshitij Dubey"
+  - date: "2026-09-15"
+    paper: "Formal Verification of WTO-based Dataflow Solvers"
+    presenter: "Axel Sorenson"
