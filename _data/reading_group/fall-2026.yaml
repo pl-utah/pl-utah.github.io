@@ -12,3 +12,7 @@ meetings:
     paper: "Build Systems à la Carte"
     link: "https://www.microsoft.com/en-us/research/wp-content/uploads/2018/03/build-systems.pdf"
     presenter: "Andrew Riachi"
+  - date: "2026-10-20"
+    paper: "Fail Faster: Staging and Fast Randomness for High-Performance PBT"
+    link: "https://thia.codes/paper.pdf"
+    presenter: "Bhargav Kulkarni"
