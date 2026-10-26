@@ -16,3 +16,6 @@ meetings:
     paper: "Fail Faster: Staging and Fast Randomness for High-Performance PBT"
     link: "https://thia.codes/paper.pdf"
     presenter: "Bhargav Kulkarni"
+  - date: "2026-10-27"
+    paper: "Livelock detection in stateless model-checking"
+    presenter: "Harshita Lila"
