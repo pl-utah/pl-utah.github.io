@@ -19,3 +19,6 @@ meetings:
   - date: "2026-10-27"
     paper: "Livelock detection in stateless model-checking"
     presenter: "Harshita Lila"
+  - date: "2026-11-03"
+    paper: "The Sea of nodes Compiler IR"
+    presenter: "Thalia Archibald"
