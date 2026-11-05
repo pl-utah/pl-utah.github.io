@@ -323,3 +323,7 @@ footer {
     font-size: 0.7rem;
     text-align: center;
 }
+
+pre, code {
+    font-size: 0.8em;
+}
