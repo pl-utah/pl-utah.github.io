@@ -21,6 +21,7 @@ meetings:
     presenter: "Harshita Lila"
   - date: "2026-11-03"
     paper: "The Sea of nodes Compiler IR"
+    link: "https://github.com/seaofnodes/simple"
     presenter: "Thalia Archibald"
   - date: "2026-11-10"
     paper: "AMD Internship talk: <code>load</code> interleaving in <code>CoExecScheduler</code>"
