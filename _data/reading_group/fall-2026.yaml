@@ -23,6 +23,6 @@ meetings:
     paper: "The Sea of nodes Compiler IR"
     presenter: "Thalia Archibald"
   - date: "2026-11-10"
-    paper: "AMD Internship talk: <code>load</code> interleaving in CoExecScheduler"
+    paper: "AMD Internship talk: <code>load</code> interleaving in <code>CoExecScheduler</code>"
     link: "https://axelcool1234.github.io/posts/coexec-scheduler/"
     presenter: "Axel Sorenson"
